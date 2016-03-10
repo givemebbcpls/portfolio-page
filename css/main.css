@@ -7,14 +7,31 @@ section.headline {
 	margin: 0 auto;
 }
 #main-head {
-	font: 100px Oxygen;
+	margin-top: 15px;
+	font: 65.6px Montserrat, Oxygen, sans-serif;
 }
 #main-photo {
-	border: 1px solid rgb(230, 230, 230);
+	border: 1px solid rgb(210, 210, 210);
 	border-radius: 50%;
 	display: inline-block;
 }
-.descr-photo {
+.photo-descr {
+	margin-top: 25px;
+}
+.descr {
 	display: inline-block;
+	width: 662px;
 	vertical-align: top;
+	text-align: justify;
+	font-family: Oxygen, sans-serif;
+	padding-left: 2em;
+	margin-top: 70px;
+}
+.descr p:nth-child(1) {
+	font-size: 30px;
+	margin-bottom: 0.5em;
+}
+.descr p:nth-child(2) {
+	font-size: 16px;
+	line-height: 1.1em;
 }
