@@ -1,0 +1,20 @@
+header {
+	height: 200px;
+	background-color: rgb(197, 197, 197); 
+}
+section.headline {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#main-head {
+	font: 100px Oxygen;
+}
+#main-photo {
+	border: 1px solid rgb(230, 230, 230);
+	border-radius: 50%;
+	display: inline-block;
+}
+.descr-photo {
+	display: inline-block;
+	vertical-align: top;
+}
